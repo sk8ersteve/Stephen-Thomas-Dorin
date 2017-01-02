@@ -1,0 +1,12 @@
+header {
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:7px;
+
+.title {
+	float: left;
+}
+
+.menu {
+	float: right;
+}
