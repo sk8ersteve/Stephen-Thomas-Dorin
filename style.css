@@ -1,12 +1,30 @@
+body {
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
 header {
-	padding-top:5px;
-	padding-left:10px;
-	padding-right:7px;
+	padding-top:15px;
+	padding-left:20px;
+	padding-right:20px;
+	height:50px;	
+}
 
 .title {
 	float: left;
+	font-size:xx-large;
 }
 
 .menu {
-	float: right;
+	float:right;
+}
+
+.menu a {
+	text-decoration:none;
+	text-color:blue;
+	padding:10px;
+	padding-top:16px;
+}
+
+section {
+	width:100%;
 }
