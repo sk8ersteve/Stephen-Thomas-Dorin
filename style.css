@@ -9,22 +9,75 @@ header {
 	height:50px;	
 }
 
+section {
+	padding-top:15px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
 .title {
-	float: left;
-	font-size:xx-large;
+	font-size:32px;
+	padding-bottom:15px;
 }
 
 .menu {
-	float:right;
+	width:100%;
+	text-align:center;
 }
 
 .menu a {
 	text-decoration:none;
-	text-color:blue;
-	padding:10px;
-	padding-top:16px;
+	color:blue;
+	padding-right:17px;
 }
 
-section {
+.tagline {
+	font-size:40px;
+	padding-top:15px;
+	text-align:center;
+}
+
+.contact-info {
+	padding-top:15px;
+	text-align:center;
+	font-size:24px;
+}
+
+.half {
+	font-size:16px;
 	width:100%;
+	text-align:center;
+	padding-top:15px;
+}
+
+.center-image {
+	padding-top:20px;
+	width:100%;
+	text-align:center;
+}
+
+img {
+	width:100%;
+}
+
+@media only screen and (min-width:600px) {
+	.half {
+		width:50%;
+		float:left;
+	}
+	.center-image {
+		width:50%;
+		margin:auto;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.title {float:left;}
+	.menu {
+		float:right;
+		width:50%;
+		text-align:right;
+		padding-top:16px;
+	}
+	.center-image {width:30%;}
 }
