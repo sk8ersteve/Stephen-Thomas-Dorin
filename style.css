@@ -43,6 +43,10 @@ a {
 	padding-right:20px;
 }
 
+p {
+	font-size: 18px;
+}
+
 .contact-info {
 	padding-top:15px;
 	text-align:center;
