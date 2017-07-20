@@ -24,6 +24,11 @@ section {
 	text-align:center;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 .menu a {
 	text-decoration:none;
 	color:blue;
